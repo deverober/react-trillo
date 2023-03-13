@@ -78,6 +78,10 @@ header {
         height: 2rem;
         width: 2rem;
         fill: var(--color-grey-dark-3);
+
+        @media only screen and (max-width: $bp-smallest) {
+            margin-right: 1.5rem;
+        }
     }
 }
 
