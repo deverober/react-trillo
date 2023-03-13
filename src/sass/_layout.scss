@@ -1,0 +1,24 @@
+.container {
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-1);
+    box-shadow: var(--shadow-dark);
+    min-height: 50rem;
+}
+
+.content {
+    display: flex;
+}
+
+// class name for nav is sidebar
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+    flex: 0 0 18%;
+}
+
+// class name for main is hotel-view
+main {
+    background-color: #fff;
+    flex: 1;
+}
+
